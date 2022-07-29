@@ -13,7 +13,7 @@ lazy val root = (project in file("."))
       "org.apache.flink"        % "flink-test-utils"        % "1.15.0" % Test,
       "org.apache.flink"        % "flink-test-utils-junit"  % "1.15.0" % Test,
       "com.github.sbt"          % "junit-interface"         % "0.13.3" % Test,
-      "org.scala-lang.modules" %% "scala-collection-compat" % "2.7.0"
+      "org.scala-lang.modules" %% "scala-collection-compat" % "2.8.1"
     ),
     libraryDependencies += {
       if (scalaBinaryVersion.value.startsWith("2")) {
